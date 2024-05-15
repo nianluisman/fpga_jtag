@@ -1,0 +1,23 @@
+S 0 2
+P 4 1 0 0 0 0 0 0 0 0 0 0
+O C:/intelFPGA_lite/23.1std/questa_fse/win64/voptk2.exe
+O -refresh
+O -jsubproc
+O -nolock
+O -stats=none
+O -nologo
+O -allow_unnamed
+O -suppress
+O 1979
+O -suppress
+O 167
+O -o
+O _opt
+O -work
+O work
+O -quiet
+O -opt=nocgRM
+O -jmem_size
+O 393216
+O -noenableprofile
+O -enableprofile1

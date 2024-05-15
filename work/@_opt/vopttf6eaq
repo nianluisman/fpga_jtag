@@ -1,0 +1,220 @@
+m255
+K3
+z0
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f MIXED_VERSIONS
+13
+cModel Technology
+dC:\altera\13.1
+T_opt
+!s110 1713535627
+V;3P4oV4NMn^n_;3l5LobD3
+04 4 4 work jtag fast 0
+=1-847beb071cae-66227a8a-23a-16ec0
+R0
+!s12b OEM100
+!s124 OEM10U12 
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vboundary_scan_cell
+2C:/Users/nilu171/source/fpga_repos/fpga_jtag/boundray_scan.sv
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1713535416
+!i10b 1
+!s100 mVe^8E2fI`9m9NTff7l8e3
+IC03N<N03zWR6HeYnlnm=T3
+S1
+Z4 dC:/Users/nilu171/source/fpga_repos/fpga_jtag
+w1713182404
+8C:/Users/nilu171/source/fpga_repos/fpga_jtag/boundray_scan.sv
+FC:/Users/nilu171/source/fpga_repos/fpga_jtag/boundray_scan.sv
+!i122 0
+L0 1 56
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2023.3;77
+r1
+!s85 0
+31
+!i113 0
+Z7 o-work work -sv
+R1
+vclock_sync
+2C:/Users/nilu171/source/fpga_repos/fpga_jtag/clock_sync.sv
+R2
+Z8 !s110 1713535418
+!i10b 1
+!s100 PS4[I@8a7iDKm`IH04hLG0
+IKGiAF`AML@T2Ho8f;>af40
+S1
+R4
+w1713432485
+8C:/Users/nilu171/source/fpga_repos/fpga_jtag/clock_sync.sv
+FC:/Users/nilu171/source/fpga_repos/fpga_jtag/clock_sync.sv
+!i122 5
+L0 2 26
+R5
+R6
+r1
+!s85 0
+31
+!i113 0
+R7
+R1
+vdata_registers
+2C:/Users/nilu171/source/fpga_repos/fpga_jtag/data_register.sv
+R2
+R3
+!i10b 1
+!s100 8:RUFM6<V=z;oK@E_SMK;2
+I1RCf;kz4IaED;iLSKS[_C1
+S1
+R4
+w1713255944
+8C:/Users/nilu171/source/fpga_repos/fpga_jtag/data_register.sv
+FC:/Users/nilu171/source/fpga_repos/fpga_jtag/data_register.sv
+!i122 1
+L0 18 205
+R5
+R6
+r1
+!s85 0
+31
+!i113 0
+R7
+R1
+vdigital_core
+2C:/Users/nilu171/source/fpga_repos/fpga_jtag/digital_core.sv
+R2
+Z9 !s110 1713535417
+!i10b 1
+!s100 RGDH<fKO?1hn`N2JA5mce1
+I^XJGI1GjEkk]oMVWQL3hL1
+S1
+R4
+w1713254552
+8C:/Users/nilu171/source/fpga_repos/fpga_jtag/digital_core.sv
+FC:/Users/nilu171/source/fpga_repos/fpga_jtag/digital_core.sv
+!i122 2
+L0 1 18
+R5
+R6
+r1
+!s85 0
+31
+!i113 0
+R7
+R1
+vinput_sync
+2C:/Users/nilu171/source/fpga_repos/fpga_jtag/input_sync.sv
+R2
+R8
+!i10b 1
+!s100 T=`lFIM2<7z`Y^B;n3:3K3
+ImE><cUeW5mo[R:z>1008^3
+S1
+R4
+w1713448598
+8C:/Users/nilu171/source/fpga_repos/fpga_jtag/input_sync.sv
+FC:/Users/nilu171/source/fpga_repos/fpga_jtag/input_sync.sv
+!i122 6
+L0 1 17
+R5
+R6
+r1
+!s85 0
+31
+!i113 0
+R7
+R1
+vjtag
+2C:/Users/nilu171/source/fpga_repos/fpga_jtag/jtag.sv
+R2
+R9
+!i10b 1
+!s100 eO3bBk[FnBe1RR8d>imLH1
+IVG^Q?N^6aUbX8fW@KRJ:52
+S1
+R4
+w1713525221
+8C:/Users/nilu171/source/fpga_repos/fpga_jtag/jtag.sv
+FC:/Users/nilu171/source/fpga_repos/fpga_jtag/jtag.sv
+!i122 3
+L0 3 264
+R5
+R6
+r1
+!s85 0
+31
+!i113 0
+R7
+R1
+vtap_controller
+2C:/Users/nilu171/source/fpga_repos/fpga_jtag/tab_controller.sv
+R2
+R9
+!i10b 1
+!s100 `z8JjEQQd?>;SZCfUez^50
+IYkbQ1dzR4=]8gU@GRPi[32
+S1
+R4
+w1712839243
+8C:/Users/nilu171/source/fpga_repos/fpga_jtag/tab_controller.sv
+FC:/Users/nilu171/source/fpga_repos/fpga_jtag/tab_controller.sv
+!i122 4
+L0 3 103
+R5
+R6
+r1
+!s85 0
+31
+!i113 0
+R7
+R1
+vtb_top
+2C:/Users/nilu171/source/fpga_repos/fpga_jtag/output_files/tb_top.sv
+R2
+Z10 !s110 1713535419
+!i10b 1
+!s100 UPRV4CEO=g6TWF8aUcWoN0
+IT3G`geW]D`h<V>JU=D2]V3
+S1
+R4
+w1713443455
+8C:/Users/nilu171/source/fpga_repos/fpga_jtag/output_files/tb_top.sv
+FC:/Users/nilu171/source/fpga_repos/fpga_jtag/output_files/tb_top.sv
+!i122 8
+L0 4 223
+R5
+R6
+r1
+!s85 0
+31
+!i113 0
+R7
+R1
+Xtest_sequences_define_sv_unit
+2C:/Users/nilu171/source/fpga_repos/fpga_jtag/test_sequences_define.sv
+R2
+R10
+VU?>;7RNQOQV<2[RSfl]z_1
+r1
+!s85 0
+!i10b 1
+!s100 CbBW<5]ZP5C[nH9``3PJJ0
+IU?>;7RNQOQV<2[RSfl]z_1
+!i103 1
+S1
+R4
+w1713442770
+8C:/Users/nilu171/source/fpga_repos/fpga_jtag/test_sequences_define.sv
+FC:/Users/nilu171/source/fpga_repos/fpga_jtag/test_sequences_define.sv
+!i122 7
+L0 7 0
+R6
+31
+!i113 0
+R7
+R1

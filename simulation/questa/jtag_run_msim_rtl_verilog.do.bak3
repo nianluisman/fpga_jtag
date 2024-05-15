@@ -1,0 +1,16 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+C:/Users/nilu171/source/fpga_repos/fpga_jtag {C:/Users/nilu171/source/fpga_repos/fpga_jtag/jtag.sv}
+vlog -sv -work work +incdir+C:/Users/nilu171/source/fpga_repos/fpga_jtag {C:/Users/nilu171/source/fpga_repos/fpga_jtag/tab_defines.sv}
+vlog -sv -work work +incdir+C:/Users/nilu171/source/fpga_repos/fpga_jtag {C:/Users/nilu171/source/fpga_repos/fpga_jtag/boundray_scan.sv}
+vlog -sv -work work +incdir+C:/Users/nilu171/source/fpga_repos/fpga_jtag {C:/Users/nilu171/source/fpga_repos/fpga_jtag/digital_core.sv}
+vlog -sv -work work +incdir+C:/Users/nilu171/source/fpga_repos/fpga_jtag {C:/Users/nilu171/source/fpga_repos/fpga_jtag/tab_controller.sv}
+vlog -sv -work work +incdir+C:/Users/nilu171/source/fpga_repos/fpga_jtag {C:/Users/nilu171/source/fpga_repos/fpga_jtag/clock_sync.sv}
+vlog -sv -work work +incdir+C:/Users/nilu171/source/fpga_repos/fpga_jtag {C:/Users/nilu171/source/fpga_repos/fpga_jtag/input_sync.sv}
+vlog -sv -work work +incdir+C:/Users/nilu171/source/fpga_repos/fpga_jtag {C:/Users/nilu171/source/fpga_repos/fpga_jtag/data_register.sv}
+

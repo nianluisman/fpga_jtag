@@ -1,0 +1,52 @@
+# Optimization canceled
+vsim work.jtag
+# vsim work.jtag 
+# Start time: 16:07:05 on Apr 19,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: C:/Users/nilu171/source/fpga_repos/fpga_jtag/jtag.sv(77): (vopt-3838) Variable 'jtag_sync_test_clk' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See C:/Users/nilu171/source/fpga_repos/fpga_jtag/jtag.sv(86). 
+# ** Warning: C:/Users/nilu171/source/fpga_repos/fpga_jtag/jtag.sv(78): (vopt-3838) Variable 'jtag_sync_test_dig_clk' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See C:/Users/nilu171/source/fpga_repos/fpga_jtag/jtag.sv(95). 
+# ** Warning: C:/Users/nilu171/source/fpga_repos/fpga_jtag/jtag.sv(101): (vopt-3838) Variable 'jtag_sync_tms' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See C:/Users/nilu171/source/fpga_repos/fpga_jtag/jtag.sv(108). 
+# ** Warning: C:/Users/nilu171/source/fpga_repos/fpga_jtag/jtag.sv(110): (vopt-3838) Variable 'jtag_sync_rstn_in' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See C:/Users/nilu171/source/fpga_repos/fpga_jtag/jtag.sv(117). 
+# ** Warning: C:/Users/nilu171/source/fpga_repos/fpga_jtag/jtag.sv(121): (vopt-3838) Variable 'jtag_sync_dig_in' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See C:/Users/nilu171/source/fpga_repos/fpga_jtag/jtag.sv(128). 
+# ** Warning: C:/Users/nilu171/source/fpga_repos/fpga_jtag/jtag.sv(131): (vopt-3838) Variable 'jtag_sync_data_in' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See C:/Users/nilu171/source/fpga_repos/fpga_jtag/jtag.sv(138). 
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=6.
+# Loading sv_std.std
+# Loading work.jtag(fast)
+# Load canceled
+add wave -position insertpoint sim:/jtag/*
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# No ports found in tb_top
+run -all
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+wave create -pattern none -portmode input -language vlog /jtag/internal_clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+# jtag
+wave create -pattern none -portmode input -language vlog /jtag/jtag_clk
+# jtag
+wave create -pattern none -portmode input -language vlog /jtag/jtag_rstn
+# jtag
+wave create -pattern none -portmode input -language vlog /jtag/jtag_mode
+# jtag
+wave create -pattern none -portmode input -language vlog /jtag/jtag_digital_input
+# jtag
+wave create -pattern none -portmode output -language vlog /jtag/jtag_digital_output
+# jtag
+wave create -pattern none -portmode input -language vlog /jtag/jtag_GPIO_0_in
+# jtag
+wave create -pattern none -portmode output -language vlog /jtag/jtag_GPIO_0_out
+# jtag
+wave create -pattern none -portmode input -language vlog /jtag/jtag_digital_core_clk
+# jtag
+wave create -pattern none -portmode output -language vlog /jtag/led_6
+# jtag
+wave create -pattern none -portmode output -language vlog /jtag/led_7
+# jtag
+run -all
+# End time: 16:15:18 on Apr 19,2024, Elapsed time: 0:08:13
+# Errors: 0, Warnings: 7

@@ -1,0 +1,67 @@
+C:/Users/nilu171/source/fpga_repos/fpga_jtag/test_sequences_define.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/nilu171/source/fpga_repos/fpga_jtag/test_sequences_define.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling package test_sequences_define_sv_unit
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/nilu171/source/fpga_repos/fpga_jtag/output_files/tb_top.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/nilu171/source/fpga_repos/fpga_jtag/output_files/tb_top.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module tb_top
+
+Top level modules:
+	tb_top
+
+} {} {}} C:/Users/nilu171/source/fpga_repos/fpga_jtag/digital_core.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/nilu171/source/fpga_repos/fpga_jtag/digital_core.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module digital_core
+
+Top level modules:
+	digital_core
+
+} {} {}} C:/Users/nilu171/source/fpga_repos/fpga_jtag/data_register.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/nilu171/source/fpga_repos/fpga_jtag/data_register.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module data_registers
+
+Top level modules:
+	data_registers
+
+} {} {}} C:/Users/nilu171/source/fpga_repos/fpga_jtag/tab_controller.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/nilu171/source/fpga_repos/fpga_jtag/tab_controller.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module tap_controller
+
+Top level modules:
+	tap_controller
+
+} {} {}} C:/Users/nilu171/source/fpga_repos/fpga_jtag/jtag.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/nilu171/source/fpga_repos/fpga_jtag/jtag.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module jtag
+
+Top level modules:
+	jtag
+
+} {} {}} C:/Users/nilu171/source/fpga_repos/fpga_jtag/clock_sync.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/nilu171/source/fpga_repos/fpga_jtag/clock_sync.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module clock_sync
+
+Top level modules:
+	clock_sync
+
+} {} {}} C:/Users/nilu171/source/fpga_repos/fpga_jtag/boundray_scan.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/nilu171/source/fpga_repos/fpga_jtag/boundray_scan.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module boundary_scan_cell
+
+Top level modules:
+	boundary_scan_cell
+
+} {} {}} C:/Users/nilu171/source/fpga_repos/fpga_jtag/tab_defines.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/nilu171/source/fpga_repos/fpga_jtag/tab_defines.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+
+} {} {}} C:/Users/nilu171/source/fpga_repos/fpga_jtag/input_sync.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/nilu171/source/fpga_repos/fpga_jtag/input_sync.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module input_sync
+
+Top level modules:
+	input_sync
+
+} {} {}}
